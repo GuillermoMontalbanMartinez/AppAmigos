@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B3BB939827471677004B0561 /* GestionAmigosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB939727471677004B0561 /* GestionAmigosApp.swift */; };
-		B3BB939A27471677004B0561 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB939927471677004B0561 /* ContentView.swift */; };
+		B3BB939A27471677004B0561 /* VistaPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB939927471677004B0561 /* VistaPrincipal.swift */; };
 		B3BB939C27471677004B0561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BB939B27471677004B0561 /* Assets.xcassets */; };
 		B3BB939F27471677004B0561 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BB939E27471677004B0561 /* Preview Assets.xcassets */; };
+		B3E4BB182747DD47000D1F2E /* Saludo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E4BB172747DD47000D1F2E /* Saludo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3BB939427471677004B0561 /* GestionAmigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestionAmigos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BB939727471677004B0561 /* GestionAmigosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestionAmigosApp.swift; sourceTree = "<group>"; };
-		B3BB939927471677004B0561 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3BB939927471677004B0561 /* VistaPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaPrincipal.swift; sourceTree = "<group>"; };
 		B3BB939B27471677004B0561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3BB939E27471677004B0561 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3E4BB172747DD47000D1F2E /* Saludo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saludo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		B3BB939627471677004B0561 /* GestionAmigos */ = {
 			isa = PBXGroup;
 			children = (
+				B3E4BB172747DD47000D1F2E /* Saludo.swift */,
 				B3BB939727471677004B0561 /* GestionAmigosApp.swift */,
-				B3BB939927471677004B0561 /* ContentView.swift */,
+				B3BB939927471677004B0561 /* VistaPrincipal.swift */,
 				B3BB939B27471677004B0561 /* Assets.xcassets */,
 				B3BB939D27471677004B0561 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BB939A27471677004B0561 /* ContentView.swift in Sources */,
+				B3E4BB182747DD47000D1F2E /* Saludo.swift in Sources */,
+				B3BB939A27471677004B0561 /* VistaPrincipal.swift in Sources */,
 				B3BB939827471677004B0561 /* GestionAmigosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
